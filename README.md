@@ -1,7 +1,9 @@
 ### INSTALL PEERDEPS
+
 `npx install-peerdeps --dev @theabstractconnection/eslint-config`
 
 ### FOR PRECOMMIT HOOK
+
 `npm i -D husky`
 
 ### FOR BASE
@@ -13,14 +15,14 @@ npm i -D eslint eslint-loader babel-eslint prettier eslint-plugin-prettier eslin
 ### FOR REACT
 
 ```
-npm i -D eslint eslint-loader babel-eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-import  
+npm i -D eslint eslint-loader babel-eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-import
 npm i -D eslint-config-react-app eslint-plugin-flowtype  eslint-plugin-jsx-a11y  eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 ### FOR VUE
 
 ```
-npm i -D eslint eslint-loader babel-eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-import  
+npm i -D eslint eslint-loader babel-eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-import
 npm i -D eslint-plugin-vue
 ```
 
