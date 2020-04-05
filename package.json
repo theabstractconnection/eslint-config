@@ -1,6 +1,6 @@
 {
   "name": "@theabstractconnection/eslint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The Abstract Connection eslint config",
   "main": "index.js",
   "scripts": {
