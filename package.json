@@ -1,0 +1,43 @@
+{
+  "name": "@theabstractconnection/eslint-config",
+  "version": "0.0.0",
+  "description": "The Abstract Connection eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: no test specified\""
+  },
+  "keywords": [
+    "theabstractconnection",
+    "eslint",
+    "eslintconfig"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "author": "Manuel Wegria",
+  "license": "MIT",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "~2.0",
+    "@typescript-eslint/parser": "~2.0",
+    "babel-eslint": "^~10.0",
+    "eslint": "~6.0",
+    "eslint-config-react-app": "~5.0",
+    "eslint-plugin-flowtype": "~4.0",
+    "eslint-plugin-import": "~2.0",
+    "eslint-plugin-jsx-a11y": "~6.0",
+    "eslint-plugin-react": "~7.0",
+    "eslint-plugin-react-hooks": "~2.0",
+    "eslint-plugin-simple-import-sort": "~5.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.2.3"
+  }
+}
