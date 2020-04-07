@@ -4,8 +4,7 @@
   "description": "The Abstract Connection eslint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Warning: no test specified\"",
-    "postinstall": "cp .prettierrc $INIT_CWD && cp .eslintrc.js $INIT_CWD"
+    "test": "echo \"Warning: no test specified\""
   },
   "keywords": [
     "theabstractconnection",

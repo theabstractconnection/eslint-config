@@ -4,9 +4,9 @@ module.exports = {
     node: true,
     browser: true,
   },
-  extends: ["eslint:recommended", "plugin:prettier/recommended"],
-  plugins: ["simple-import-sort"],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+  plugins: ['simple-import-sort'],
   rules: {
-    "simple-import-sort/sort": "error",
+    'simple-import-sort/sort': 'error',
   },
-};
+}
