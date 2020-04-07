@@ -4,7 +4,8 @@
   "description": "The Abstract Connection eslint config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Warning: no test specified\""
+    "test": "echo \"Warning: no test specified\"",
+    "postinstall": "cp .prettierrc $INIT_CWD && cp .eslintrc.js $INIT_CWD"
   },
   "keywords": [
     "theabstractconnection",
@@ -27,12 +28,16 @@
     "@typescript-eslint/parser": "^2.26.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
+    "eslint-loader": "^4.0.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-flowtype": "^4.7.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.5.1"
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.0.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
