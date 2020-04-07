@@ -8,5 +8,10 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
     parser: 'babel-eslint',
+    ecmaVersion: 7,
+    ecmaFeatures: {
+      modules: true,
+      sourceType: 'module',
+    },
   },
 }
