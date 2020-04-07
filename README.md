@@ -32,7 +32,7 @@ npm i -D eslint-plugin-vue
 scripts: {
   "lint": "eslint --ext .js,.jsx,.vue src",
   "lint:fix": "eslint --ext .js,.jsx,.vue src --fix",
-  "lint:check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
+  "lint:check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
   "precommit": "npm run lint:check && npm run lint"
 }
 ```
