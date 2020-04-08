@@ -10,7 +10,9 @@ module.exports = {
     'prettier/vue',
     'plugin:prettier/recommended',
   ],
+  plugins: ['simple-import-sort'],
   rules: {
+    'simple-import-sort/sort': 'warn',
     'vue/component-name-in-template-casing': ['error', 'PascalCase'],
     'vue/html-quotes': ['error', 'double', { avoidEscape: true }],
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',

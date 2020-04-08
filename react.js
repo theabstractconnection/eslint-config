@@ -2,7 +2,7 @@ module.exports = {
   extends: ['react-app', 'eslint:recommended', 'plugin:prettier/recommended'],
   plugins: ['simple-import-sort'],
   rules: {
-    'simple-import-sort/sort': 'error',
+    'simple-import-sort/sort': 'warn',
     'react/boolean-prop-naming': [
       'warn',
       { validateNested: true, rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+' },
